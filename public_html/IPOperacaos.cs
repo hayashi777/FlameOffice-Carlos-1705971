@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FlameOffice_Carlos_1705971.Classes
 {
-    public class Administrador : Usuario
+    interface ILOperacaos
     {
-        public int ID_adm { get; set; }
+        string GerarHash();
+        List<object> GerarLista();
     }
 }
-

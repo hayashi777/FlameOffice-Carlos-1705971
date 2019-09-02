@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace FlameOffice_Carlos_1705971.Classes
 {
-    public class Administrador : Usuario
+    public class Empresa : Usuario
     {
-        public int ID_adm { get; set; }
+        public string CNPJ { get; set; }
     }
 }
-
